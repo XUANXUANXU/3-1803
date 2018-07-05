@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>转换为boolean</title>
+	<script type="text/javascript">
+		/* Boolean()函数*/
+		var a = 123;
+		a = Boolean(a);
+		a= Infinity;
+		a = Boolean(a);
+		a= NaN;
+		a = Boolean(a);//false
+		//除了空字符串都是true
+		a = "hello";
+		a = " ";//true
+		a = '';//false
+		a = Boolean(a);
+
+		a = null;//false
+		a = Boolean(a);
+		a = undefined;//false
+		a = Boolean(a);
+		//对象都是转为true
+		a = window;
+		a = Boolean(a);
+
+		console.log(a);
+		console.log(typeof a);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

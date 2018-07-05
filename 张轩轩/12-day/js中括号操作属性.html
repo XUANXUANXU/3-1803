@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js中括号操作属性</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var a = document.getElementById('div1');
+			var c = document.getElementById('div2');
+			var b = "color";
+			// a.style[b] = "red";
+			a['style'][b] = "red";
+			alert(a.innerHTML);
+
+			c.innerHTML="dierge";
+			c.innerHTML="<a href='http://www.baidu.com'>百度</a>";
+		}
+	</script>
+</head>
+<body>
+	<div id="div1">like</div>
+	<div id="div2"></div>
+</body>
+</html>

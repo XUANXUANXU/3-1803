@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>转换成number</title>
+	<script type="text/javascript">
+		//Number()函数  任意类型转为数字
+		var a = "123";
+		a = Number(a);
+
+		a = "abc";
+		a = Number(a);
+
+		a = " ";
+		a = Number(a);
+
+		a = true;
+		a = Number(a);
+
+		a = null;
+		a = Number(a);
+
+		a = undefined;
+		a = Number(a);
+
+		a = "123px";
+		a = parseInt(a);//整数
+		a = parseFloat(a);//浮点数
+
+		console.log(a);
+		console.log(typeof a);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

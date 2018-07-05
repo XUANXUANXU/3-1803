@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ie6png的修复</title>
+	<style type="text/css">
+		.box1{
+			width: 1000px;
+			height: 1000px;
+			background-image: url(../01-day/1.jpg.jpg);
+			background-repeat: no-repeat;
+
+	</style>
+
+</head>
+<body>
+	<div class="box1"></div>
+	<img src="路径" alt="描述">
+	<!--[if IE 6]>
+		<script type="text/javascript" src="ie6_png"></script>
+		<script type="text/javascript">
+			DD_belatedPNG.fix("div,img");
+		</script>
+	<![endif]-->
+</body>
+</html>

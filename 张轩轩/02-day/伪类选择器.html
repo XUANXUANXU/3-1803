@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类选择器</title>
+	<style type="text/css">
+	/*正常链接a:link   访问过的链接a:visited（只能定义字体颜色） 鼠标滑过的链接a:hover   正在点击的链接 a:active*/
+	a:link{
+		color: blue;
+	}
+	a:visited{
+		color: red;
+	}
+	a:hover{
+		color: black;
+	}
+	a:active{
+		color: yellow;
+	}
+	/*段落鼠标滑过 正在点击时的状态*/
+	p:hover{
+		color: green;
+	}
+	p:active{
+		color: yellow;
+	}
+	/*文本获取焦点*/
+	input:focus{
+		background-color: green;
+	}
+	/*鼠标选中大多数浏览器兼容   鼠标选中火狐浏览器写法 */
+	p::selection{
+		background-color: black;
+	}
+	p::-moz-selection{
+		background-color: black;
+	}
+	</style>
+</head>
+<body>
+	<a href="http://lol.qq.com/">访问过的链接</a>
+	<br>
+	<a href="http://www.baidu.com">未访问过的链接</a>
+	<br>
+	<input type="text" name="">
+	<p>张晨波个煞笔</p>
+</body>
+</html>

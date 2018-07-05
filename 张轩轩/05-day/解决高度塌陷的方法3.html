@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>解决高度塌陷</title>
+	<style type="text/css">
+		.box1{
+			border: red 2px solid;
+		}
+		.clearfix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		/*  IE6  */
+		.clearfix{
+			zoom: 1;
+		}
+		.box2{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+			float: left;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="box1 clearfix">
+		<div class="box2"></div>
+	</div>
+</body>
+</html>

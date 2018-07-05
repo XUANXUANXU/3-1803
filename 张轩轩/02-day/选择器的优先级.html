@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选择器的优先级</title>
+	<style type="text/css">
+	/*
+		!important 最高级
+		内联样式：权重是 1000
+		id选择器：权重是 100
+		类、属性、伪类选择器：权重是 10
+		元素选择器：权重是 1
+		通配符：权重是 0
+	*/
+		p{
+			font-size: 30px;
+		}
+		.p1{
+			background-color: yellow;
+		}
+		p{
+			background-color: red;
+		}
+		#p2{
+			background-color: green;
+		}
+		.p1{
+			color: black;
+		}
+		.p3{
+			color: white;
+		}
+		/*
+		并集（群组）选择器的优先级是单独计算的 div,p,p1,#p2
+		*/
+	</style>
+</head>
+<body>
+	<p class="p1 p3" id="p2" style="background-color: blue">
+		地老天荒
+		<br>
+		<span>执子之手</span>
+	</p>
+</body>
+</html>

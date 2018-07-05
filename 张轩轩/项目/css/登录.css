@@ -1,0 +1,125 @@
+.zhuc{
+	margin-top: 110px;
+	margin-left: 283px;
+	margin-bottom: 140px;
+}
+.zc{
+	font-size: 19.5px;
+	padding-top: 1px;
+	color: rgb(34, 156, 160);
+}
+.xh{
+	color: #5C5C5C;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+#um,#pwd{
+	width: 208px;
+	height: 27px;
+	border: 1px solid rgb(204, 204, 204);
+}
+.bd label{
+	color: rgb(92, 92, 92);
+}
+.bd{
+	font-size: 12px;
+	margin-left: 3px;
+	position: relative;
+}
+
+.index{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 6px;
+}
+
+#clause{
+	width: 12px;
+	height: 12px;
+	margin-left: 45px;
+	margin-top: 10px;
+	color: rgb(102, 102, 102);
+}
+.bun{
+	margin-left: 45px;
+	margin-top: 7px;
+	height: 30px;
+
+}
+.wang{
+	margin-left: 40px;
+	color: rgb(34, 156, 160);
+}
+.you{
+	width: 296px;
+	height: 355px;
+	margin-right: 330px;
+	margin-top: 97px;
+	text-align: center;
+	background-color: rgb(245, 246, 241);
+}
+.yiyou,.yiyou2{
+	font-size: 14px;
+	color: rgb(92, 92, 92);
+	text-align: center;
+	margin-top: 23px;
+	margin-bottom: 6px;
+
+}
+.bb{
+	height: 66px;
+	border-bottom: 1px solid white;
+}
+.bb2{
+	position: relative;
+	z-index: 2;
+}
+.yiyou2{
+	margin-top: 16px;
+	margin-bottom: 20px;
+}
+.qq2{
+
+	margin-left: 7px;
+}
+.erweima{
+	display: block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../imgs/erweima.jpg);
+	background-position: 0 -72px;
+	position: fixed;
+	bottom: 160px;
+	right: 75px;
+	z-index: 999;
+}
+.erweima:hover{
+	background-position: 0 0;
+}
+.erweima:hover .eewwmm{
+	display: block;
+}
+.backtop{
+	display: block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../imgs/totop1.gif);
+	position: fixed;
+	bottom: 95px;
+	right: 75px;
+	z-index: 999;
+}
+.backtop:hover{
+	background-image: url(../imgs/totopd1.gif);
+}
+.eewwmm{
+	display: none;
+	background-image: url(../imgs/erweima.png);
+	width: 301px;
+	height: 189px;
+	position: fixed;
+	bottom: 160px;
+	right: 137px;
+	z-index: 999;
+}

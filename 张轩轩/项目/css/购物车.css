@@ -1,0 +1,282 @@
+.title2{
+	margin: 50px auto 0px;
+	width: 1110px;
+	text-align: center;
+}
+.gwczt{
+	width: 970px;
+	margin: 15px auto 0px;
+	font-size: 12px;
+	text-align: right;
+}
+.gwczt a{
+	color: rgb(20, 165, 152);
+}
+.allprice{
+	width: 977px;
+	height: 29px;
+	margin: 10px auto 0px;
+}
+.allprice ul{
+	color: #5C5C5C;
+	line-height: 20px;
+	font-size: 12px;
+	height: 150px;
+	height: 18px;
+	padding-top: 11px;
+}
+.jxgw{
+	background: url(../imgs/goon_shopping_logo.jpg) 0 3px no-repeat;
+	width: 49px;
+	padding-left: 19px;
+}
+.ydhj{
+	background: url(../imgs/shopping_consultation_logo.jpg) 0 3px no-repeat;
+	width: 49px;
+	padding-left: 19px;
+	margin-left: 14px;
+}
+.allprice p{
+	width: 745px;
+	text-align: right;
+	padding-right: 3px;
+	height: 18px;
+	padding-top: 11px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #5C5C5C;
+}
+.allprice p span{
+	color: #FF7960;
+	font-size: 16px;
+	font-weight: 700;
+}
+.title3{
+	width: 977px;
+	height: 44px;
+	margin: 10px auto 0px;
+	background: url(../imgs/goods_tit_bg.jpg) repeat-x;
+}
+.checkbox1{
+	width: 12px;
+	height: 12px;
+}
+.title3 li{
+    line-height: 44px;
+    text-align: left;
+    color: #5A5A58;
+    font-weight: 700;
+	font-size: 12px;
+    float: left;
+}
+.title3 .li1{
+	text-align: left;
+	width: 19px;
+	line-height: 18px;
+	padding-left: 13px;
+	padding-top: 13px;
+}
+.qx{
+	width: 142px;
+}
+.dpbb{
+	width: 184px;
+}
+.wsb{
+	width: 96px;
+}
+.dj{
+	width: 105px;
+}
+.sl{
+	width: 117px;
+}
+.yh{
+	width: 101px;
+}
+.xj{
+	width: 122px;
+}
+.cz{
+	width: 78px;
+}
+.store{
+	width: 977px;
+	height: 35px;
+	margin:0px auto;
+}
+.sp1{
+	width: 17px;
+	height: 20px;
+	float: left;
+	padding: 15px 0 0 13px;
+}
+.store span{
+
+	font-size: 12px;
+	line-height: 20px;
+	color: #5c5c5c;
+}
+.sp2{
+	width: 126px;
+	height: 22px;
+	float: left;
+	padding-top: 13px;
+}
+.sp2 a{
+	
+	color: rgb(20, 165, 152);
+}
+.sp3{
+	width: 120px;
+	height: 22px;
+	float: left;
+	padding: 13px 0 0;
+}
+.sp4{
+	width: 245px;
+	float: right;
+	height: 22px;
+	padding: 13px 0 0;
+}
+.sp4 strong{
+	font-size: 16px;
+	color: #FF7960;
+}
+.details{
+	width: 975px;
+	height: 90px;
+	border: 1px solid #ededed;
+	background: #f7f7f3;
+	padding: 7px 0 0;
+	margin: 0px auto;
+}
+.details .span{
+	font-size: 12px;
+	line-height: 20px;
+	color: #5C5C5C;
+}
+.sspp1{
+	width: 24px;
+	height: 50px;
+	float: left;
+	padding: 33px 0 0 29px;
+}
+.goods{
+	width: 71px;
+	height: 71px;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	float: left;
+	padding: 5px 5px;
+}
+.sspp2{
+	width: 192px;
+	height: 79px;
+	margin-left: 10px;
+}
+.sspp2 a{
+	color: #3B95A0;
+}
+.sspp2 p{
+	color: #5C5C5C;
+}
+.sspp3{
+	width: 60px;
+	height: 47px;
+	padding-top: 36px;
+	padding-left: 35px;
+}
+#span4{
+	width: 90px;
+	height: 47px;
+	float: left;
+	font-size: 14px;
+	color: #FF776B;
+	padding-top: 36px;
+}
+#span5{
+	padding-left: 40px;
+	padding-top: 36px;
+	float: left;
+}
+#span6{
+	padding-top: 36px;
+	float: left;
+	margin-left: 110px;
+}
+#span7{
+	width: 71px;
+	height: 48px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	color: #FF776B;
+	font-weight: 700;
+	padding: 35px 0 0;
+	margin-left: 70px;
+}
+#span8{
+	width: 125px;
+	margin-left: 15px;
+	float: left;
+	height: 62px;
+	padding-top: 21px;
+}
+#span8 a{
+	margin-bottom: 5px;
+	width: 125px;
+	text-align: center;
+	color: #3B95A0;
+	float: left;
+}
+.jiesuan1{
+	width: 977px;
+	height: 42px;
+	margin: 30px auto 0px;
+	margin-bottom: 50px;
+}
+.jiesuan2 *{
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	color: #5C5C5C;
+}
+.jiesuan2{
+	width: 800px;
+	height: 40px;
+	float: left;
+	border: 1px solid #ededed;
+	background: #F7F8F3;
+	line-height: 40px;
+	padding: 0 0 0 12px;
+}
+.sssp1 input{
+	margin-top: 13px;
+}
+.sssp2{
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.sssp3{
+	padding-top: 10px;
+	padding-left: 20px
+}
+.sssp4{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.sssp4 a{
+	margin-right: 10px;
+}
+.sssp5{
+	padding-top: 10px;
+	float: right;
+}
+.sssp6{
+	padding-top: 10px;
+	float: right;
+	font-size: 16px;
+	color: #FF776B;
+	margin-right: 70px;
+}

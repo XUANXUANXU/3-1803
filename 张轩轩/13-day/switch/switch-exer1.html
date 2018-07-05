@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>switch练习1</title>
+		<script type="text/javascript">
+		//对于成绩大于等于60分的，输出'合格',低于60分的，输出'不合格'
+		var a = +prompt('输入成绩');
+		if (a>100 || a<0 || isNaN(a)){
+			alert("不合法");
+		}else{
+			switch(a>=60){
+				case true:
+					alert('合格');
+					break;
+				default:
+					alert('不合格');
+					break;
+				}
+		}
+		</script>
+	<body>
+	</body>
+</html>

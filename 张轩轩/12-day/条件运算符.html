@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>条件运算符</title>
+	<script type="text/javascript">
+		//第一个操作数在?之前， 第二个操作数在?和:之间，第三个操作数在:之后。
+		//例如：x > 0 ? x : -x
+		var a=10;
+		var b=20;
+		var c=30;
+		a > b ? alert("a") : alert("b");
+		
+		var max= a > b ? a : b;
+		console.log(max);
+
+		max= max > c ? max : c;
+		
+		var max = a > b ? (a > c ? a : c) : (b > c ? b : c);
+		console.log('max = ' + max);
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>外边距的重叠</title>
+	<style type="text/css">
+	/*两个相邻的兄弟元素  垂直外边距的重叠取最大值*/
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			margin-bottom: 100px; 
+			}
+		.box1{
+			width: 200px;
+			height: 200px;
+			background-color: yellow;
+			margin-top: 120px;
+			}
+		.box2{
+			width: 200px;
+			height: 200px;
+			background-color: green;
+			/*padding-top: 1px;*/
+			border-top: black 10px solid;
+			}
+		.box3{
+			width: 100px;
+			height: 100px;
+			background-color: purple;
+			margin-top: 100px;
+			}
+
+	</style>
+</head>
+<body>
+	<div class="box2">
+		<div class="box3"></div>
+	</div>
+	<div class="box"></div>
+	<div class="box1"></div>
+</body>
+</html>

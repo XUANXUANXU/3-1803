@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>属性选择器</title>
+	<style type="text/css">
+		/*属性选择器 [属性名] 选取含有指定属性的元素
+		 [属性名]='属性值' 选取含有指定属性值的元素 
+		 [属性名^="属性值"]指定内容开头
+		 [属性名$="属性值"]指定内容结尾
+		 [属性名*="属性值"]包含指定内容
+		*/
+		p[title]{
+			background-color: yellow;
+		}
+		p[title='hello']{
+			background-color: red;
+		}
+		p[title^='hi']{
+			background-color: orange;
+		}
+		p[title$='o']{
+			background-color: blue;
+		}
+		p[title*='h']{
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<p title="hello">男神是梦德大人</p>
+	<p title="ooooo">男神是梦德大人</p>
+	<p>男神是梦德大人</p>
+	<p title="hi">男神是梦德大人</p>
+	<p title="hihi">男神是梦德大人</p>
+	<p>男神是梦德大人</p>
+</body>
+</html>

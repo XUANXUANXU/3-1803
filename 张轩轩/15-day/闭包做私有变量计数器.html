@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>闭包做私有变量计数器</title>
+	<script type="text/javascript">
+		var count = (function(){
+    		var a = 0;
+    		function add(){
+        		a++;
+        		return a;
+    		}
+    		return add;
+		})()
+		count();
+		count();
+		var nowcount = count();
+			alert(nowcount);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

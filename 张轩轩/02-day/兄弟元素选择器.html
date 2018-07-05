@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>兄弟元素选择器</title>
+	<style type="text/css">
+		/*
+		给span后紧挨的一个兄弟元素设置背景颜色   兄弟元素 + 兄弟元素{}
+		查找span后边所有的兄弟元素     兄弟元素 ~ 兄弟元素{}
+		*/
+		span + p{
+			background-color: red;
+		}
+		span ~ p{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+	<span>谁都可以说爱你， 但不是人人都能等你</span>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+	<p>我喜欢夜晚。没有黑暗，我们永远都看不见星星</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>否定伪类</title>
+	<style type="text/css">
+		/*
+		:not(选择器){}
+		*/
+		/*p:not(.hello){
+			background-color: red;
+		}*/
+		p:not(#p1):not(.hello){
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<p>你为什么要害我</p>
+	<p>你为什么要害我</p>
+	<p id="p1">你为什么要害我</p>
+	<p class="hello">你为什么要害我</p>
+	<p>你为什么要害我</p>
+	<p>你为什么要害我</p>
+	<p>你为什么要害我</p>
+</body>
+</html>

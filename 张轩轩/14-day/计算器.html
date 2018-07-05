@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>计算器</title>
+	<script type="text/javascript">
+		function count(){  
+	    var a=parseFloat(document.getElementById('input01').value); 
+	    var b=parseFloat(document.getElementById('input02').value);  
+	    var select=document.getElementById('select').value;  
+	    var result='';  
+	    switch(select){  
+	        case '0':result = a+b; break;  
+	        case '1':result = a-b; break;  
+	        case '2':result = a*b; break;  
+	        case '3':
+	        	if(b!=0){  
+                	result=a/b;  
+            	}else{  
+                	alert("除数不能为0");  
+                	return;
+            	}  
+            	break;  
+       	 	default:  
+            	break;  
+	    }  
+	    	document.getElementById('fruit').value=result;  
+	   }  
+	</script>
+</head>
+<body>
+	<h1>计算器</h1>
+	<input type="text" id="input01">
+	<select name="" id="select">
+		<option value="0">+</option>		
+		<option value="1">-</option>		
+		<option value="2">*</option>	
+		<option value="3">/</option>		
+	</select>
+
+	<input type="text" id="input02">
+	<input type="button" value="计算" id="btn" onclick="count()">
+	<input type='text' id='fruit'>
+</body>
+</html>

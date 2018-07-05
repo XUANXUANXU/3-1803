@@ -1,0 +1,418 @@
+.body{
+    width: 1100px;
+    /*height: 1500px;*/
+    margin: 25px auto;
+}
+.bayue{
+	width: 100%;
+    height: 200px;
+    margin-top: 3px;
+	background: url(../imgs/100.jpg) center no-repeat;
+
+}
+#toTop {
+    display: block;
+    cursor: pointer; 
+    text-decoration: none;
+    position: fixed;
+    bottom: 95px;
+    right: 75px;
+    overflow: hidden;
+    width: 56px;
+    height: 56px;
+    border: none;
+    text-indent: -999px;
+    background: url(../imgs/totopd1.gif) no-repeat left top;
+    z-index: 99;
+}
+#chat_with_me {
+    text-decoration: none;
+    position: fixed;
+    bottom: 168px;
+    right: 75px;
+    overflow: hidden;
+    width: 56px;
+    height: 56px;
+    border: none;
+    text-indent: -999px;
+    background: url(../imgs/chat_with_me.gif) no-repeat left top;
+	cursor:pointer;
+	display:block;
+    z-index:99;
+}
+.qqq{
+    margin: 0px auto;
+    margin-top: 47px;
+	background: url(../imgs/diagonalMaskWhiteBg.gif) repeat #E5E5E5;
+	width: 1100px;
+    height: 53px;
+	display: block;
+    margin-bottom: 30px;
+}
+.condi{
+    width: 144px;
+    height: 27px;
+    margin-top: 12px;
+    margin-right: 20px;
+    display: inline;
+}
+.lefta{
+    display: block;
+    background: #6b6b6b !important;
+    color: #fff !important;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #7f7f7f !important;
+    border-right: none !important;
+    width: 71px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.righta{
+    display: block;
+    color: #7f7f7f !important;
+    background: #fff;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #7f7f7f !important;
+    border-left: none !important;
+    width: 71px;
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.cSPList{
+    display: none;
+    width: 98px;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 2;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1);
+    line-height: 28px;
+    font-size: 12px;
+    color: #5C5C5C;
+}
+.cSPList li{
+    color: #5C5C5C;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.cSPBtn{
+    width: 96px;
+    height: 28px;
+    background: #fff;
+    border: 1px solid #6b6b6b;
+    line-height: 28px;
+    border-radius: 5px;
+    margin: 12px 25px 0 0;
+    position: relative;
+    font-size: 12px;
+    color: #5C5C5C;
+    float: right;
+    cursor: pointer;
+}
+.cSPBtn p{
+    color: #5C5C5C;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.cSPBtn span{
+    width: 7px;
+    height: 4px;
+    display: block;
+    background: url("../imgs/ws_jiantou.png") no-repeat 0 -4px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.cSPList li:hover{
+    background-color: rgb(237, 237, 237);
+}
+.storestore1{
+    width: 242px;
+
+}
+.info{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(246, 246, 246);
+}
+.ping{
+    color: #5c5c5c;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+.infolist{
+    width: 212px;
+    margin: 15px 0 0 15px;
+    padding-bottom: 8px;
+    line-height: 25px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.yahei span{
+    font-size: 12px;
+    color: rgb(137, 137, 137);
+}
+.yahei a img{
+    margin-top: 4px;
+}
+.clear{
+    clear: both;
+}
+.yahei{
+    font-size: 11px;
+    line-height: 25px;
+    color: rgb(92, 92, 92);
+}
+.yahei a{
+    color: rgb(92, 92, 92);
+}
+.mar{
+    margin-left: 17px;
+}
+.pp1{
+    color: rgb(137, 137, 137);
+    font-size: 10px;
+    margin-left: 17px;
+}
+.bluefont{
+    color: rgb(34, 156, 160);
+}
+.pp2{
+    margin-top: 19px;
+    width: 100px;
+    font-size: 12px;
+    color: rgb(137, 137, 137);
+}
+.pp2 span{
+    font-size: 25px;
+    color: rgb(29, 187, 204);
+}
+.ppppp{
+    margin-left: 10px;
+}
+.iflt{
+    font-size: 12px;
+    border: none;
+}
+.iflt p{
+    color: rgb(91, 91, 91);
+}
+.iflt img{
+    margin-right: 10px;
+}
+.buton{
+    width: 242px;
+    margin-top:25px;
+}
+.buton a{
+    width: 98px;
+    height: 32px;
+    border: 1px solid #dcdcdc;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    background-image: linear-gradient(#FFFFFF, #EBEBEB);
+    background-color: #fff;
+}
+.aa1{
+    margin-left: 10px;
+    color: rgb(91, 91, 91);
+}
+.aa2{
+    margin-left: 14px;
+    color: rgb(91, 91, 91);
+}
+.fsx{
+    display: block;
+    width: 65px;
+    height: 12px;
+    margin: 30px auto;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(137, 137, 137);
+}
+.xf{
+    width: 20px;
+    height: 12px;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image: url(../imgs/userInfo.gif);
+    background-position: 0px -48px;
+}
+.fsx:hover .fsx2{
+    color: rgb(34, 156, 168);
+}
+.fsx:hover .xf{
+    background-position: 0px -60px;
+}
+.fsx a{
+    color: rgb(137, 137, 137);
+}
+.fsx2{
+    display: block;
+    margin-top: 5px;
+}
+.cate{
+    background-color: rgb(246, 246, 246);
+    margin-top: 20px;
+    padding-bottom: 18px;
+}
+.cate p{
+    font-size: 13.5px;
+    color: rgb(92, 92, 92);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.cate ul{
+    width: 220px;
+    margin: 0 auto;
+}
+.cate ul li{
+    height: 32px;
+    background: url(../imgs/littleCate.png) no-repeat;
+    background-color: white;
+    background-position: 10px 13px;
+    border-bottom: 1px solid #c5c5c5;
+    margin-top: 10px;
+    font-size: 14px
+}
+.cate ul li a{
+    color: #229ca0;
+    margin-left: 17px;
+    line-height: 32px;
+}
+.cate ul li span{
+    color: rgb(137, 137, 137);
+    line-height: 32px;
+    margin-right: 7px;
+}
+.body2{
+    width: 858px;
+    float: left;
+}
+.spsp1{
+    margin: 0 0 0 44px;
+    height: 356px;
+    width: 242px;
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5C5C5C;
+}
+.spsp1 a{
+    color: #5C5C5C;
+}
+.spsp1 a:hover{
+    color: rgb(0, 204, 204);
+}
+.bt11{
+    width: 144px;
+    margin: 10px auto 0;
+    height: 20px;
+}
+.overlay{
+    height: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.goodsPrice{
+    width: 65px;
+    height: 15px;
+    padding: 0 10px;
+    background: #fff;
+    position: relative;
+    top: -10px;
+    z-index: 90;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #ff7800;
+    line-height: 20px;
+}
+.page{
+    margin-top: 1830px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    min-height: 1%;
+    line-height: 20px;
+}
+.page li{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.page li span{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+}
+.yiye{
+    background: url(../imgs/page.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 9px auto 0;
+    width: 25px;
+}
+.thispg{
+    background: url(../imgs/page.png) no-repeat scroll 0 -57px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+}
+.other a{
+    color: rgb(0, 204, 204);
+}
+.other:hover{
+    background: url(../imgs/page.png) no-repeat scroll 0 -93px rgba(0,0,0,0);
+}
+.weiye{
+    background: url(../imgs/page.png) no-repeat scroll -25px -18px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 9px auto 0;
+    width: 25px;
+}
+.wy2:hover{
+    background:url(../imgs/page.png) no-repeat scroll 0 -57px;
+}
+.wy2:hover .weiye{
+    background: url(../imgs/page.png) no-repeat scroll -25px 0 rgba(0, 0, 0, 0);
+}
+.yiye2{
+    background: url(../imgs/page.png) no-repeat scroll 0 -18px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 9px auto 0;
+    width: 25px;
+}
+.yy2:hover{
+    background:url(../imgs/page.png) no-repeat scroll 0 -57px;
+}
+.yy2:hover .yiye2{
+    background: url(../imgs/page.png) no-repeat scroll 0 -36px rgba(0, 0, 0, 0);
+}
+.weiye2{
+    background: url(../imgs/page.png) no-repeat scroll -25px -36px rgba(0, 0, 0, 0);
+    display: block;
+    height: 18px;
+    margin: 9px auto 0;
+    width: 25px;
+}

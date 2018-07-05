@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>子元素选择器</title>
+	<style type="text/css">
+		/*
+		选择第一个子标签
+		选择最后一个子标签
+		选择指定位置的子元素 even偶数 odd奇数
+		选择指定类型的子元素
+		*/
+		p:first-child{
+			background-color: red;
+		}
+		p:last-child{
+			background-color: yellow;
+		}
+		p:nth-child(3){
+			background-color: green;
+		}
+		p:first-of-type{
+			background-color: orange;
+		}
+	</style>
+</head>
+<body>
+	<span>哈哈哈哈哈哈哈哈</span>
+	<p>梦想是养一只羊驼</p>
+	<p>梦想是养一只羊驼</p>
+	<p>梦想是养一只羊驼</p>
+	<p>梦想是养一只羊驼</p>
+	<p>梦想是养一只羊驼</p>
+	<div>
+		<p>梦想是养一只羊驼</p>
+	</div>
+</body>
+</html>

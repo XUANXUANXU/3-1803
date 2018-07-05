@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>内联元素的盒模型</title>
+	<style type="text/css">
+		span{
+			background-color: yellow;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+
+		}
+		.p1{
+			width: 100px;
+			height: 100px;
+			padding-left: 100px;
+			padding-right: 100px;
+			/*padding-top: 50px;
+			padding-bottom: 50px;*/
+			border: blue 10px solid;
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		.p2{
+			margin-left: 100px;
+			margin-right: 100px;
+			/*
+			外边距不支持上下垂直方向
+			margin-top: 100px;
+			margin-bottom: 100px;
+			*/
+		}
+
+	</style>
+</head>
+<body>
+	<span class="p1">dadaddadadadda</span>
+	<span class="p2">dadaddadadadda</span>
+	<span>dadaddadadadda</span>
+	<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>块和内联</title>
+</head>
+<body>
+	<!-- 
+		块元素  独占一行 div p h1-h6 li
+		内联元素（行内元素） 只占自身大小span a img iframe
+		a可以包含任意元素，除了本身
+		p不可以包含其他块元素	
+	 -->
+	 <div style="background-color:green;width:200px;">div div div</div>
+	 <div style="background-color:red;width:200px;">div div div</div>
+	 <p>段友出征寸草不生</p>
+	 <hr>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <span style="color: red">span span span</span>
+	 <!-- a可以包含任意元素，除了本身 -->
+	 <a href="#">
+	 	<div style="background-color:red;width=200px;">
+	 		我是div
+	 	</div>
+	 </a>
+	 <a href="">我是一个超链接</a>
+	 <!-- p不可以包含其他块元素 -->
+	 <p><span>woshispan</span></p>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打印质数</title>
+	<script type="text/javascript">
+		// 打印出1-100之间所有的质数	
+		console.time("test");
+		for (var i = 1; i <= 100; i++) {
+			var a = 0;
+			if (i!=0 && i!=1) {
+				for (var j = 2; j <= Math.sqrt(i); j++) {
+					if (i%j==0) {
+						a = 1;
+						break;
+					}
+				}if (a==0) {
+					console.log(i);
+				}
+			}
+		}
+		console.timeEnd("test");
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

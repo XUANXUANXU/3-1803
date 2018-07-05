@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>倒计时</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var box = document.getElementById('box');
+			function timego(){
+				var now = new Date();
+				var futrue = new Date(2018,10,12,0,0,0);
+				var milli = parseInt((futrue - now)/1000);
+				if (milli<=0) {
+					window.location.href = "http://www.baidu.com";
+				}
+				var day = parseInt(milli / 86400);
+				var hour = parseInt(milli % 86400 / 3600);
+				var minute = parseInt(((milli % 86400) % 3600) / 60);
+				var second = milli % 60;
+				box.innerHTML = '距离2018双11还有'+double(day)+'天'+double(hour)+'时'+double(minute)+'分'+double(second)+'秒';
+			}
+			timego();
+			setInterval(timego,1000);
+		}
+		function double(num){
+			if (num<10) {
+				return "0" + num;
+
+			}else{
+				return num;
+			}
+		}	
+	</script>
+</head>
+<body>
+	<div id="box"></div>
+</body>
+</html>

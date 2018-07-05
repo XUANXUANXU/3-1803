@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+	window.onload = function(){
+	var con1 = document.getElementById('header')
+	var con2 = document.getElementById('footer')
+	var con3 = document.getElementById('select')
+	var con4 = document.getElementById('btn')
+	var sum; 
+	con4.onclick = function(a,b,c){
+		if(isNaN(con1.value) || isNaN(con2.value)){
+			alert("输入格式不对,请重新输入")
+		}else{
+			if(con3.value == 0){
+				sum = +con1.value + con2.value*1;
+				alert(parseInt(sum*100)/100);
+			}else if(con3.value == 1){
+				sum = +con1.value - con2.value*1;
+				alert(parseInt(sum*100)/100);
+			}else if(con3.value == 2){
+				sum = +con1.value * con2.value*1;
+				alert(parseInt(sum*100)/100);
+			}else if(con3.value == 3){
+				if(con2.value != 0){
+					sum = (+con1.value*100) / (con2.value*100);
+						alert(parseInt(sum*100)/100);
+					}else{
+						alert("0不能作除数")
+					}
+				}
+			}
+		}
+	}
+</script>
+</head>
+<body>
+	<input type="text" name="" id="header">
+	<select name="" id="select">
+		<option value="0">+</option>
+		<option value="1">-</option>
+		<option value="2">*</option>
+		<option value="3">/</option>
+	</select>
+	<input type="text" name="" id="footer">
+	<input type="button" name="" value="计算" id="btn">
+</body>
+</html> 

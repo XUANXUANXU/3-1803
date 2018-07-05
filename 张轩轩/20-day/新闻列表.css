@@ -1,0 +1,62 @@
+div{
+	width: 602px;
+	height: 292px;
+	border: 1px solid rgb(228, 228, 228);
+	margin: 20px auto;
+}
+.cc{
+	list-style: none;
+	border-bottom: 1px solid rgb(228, 228, 228);
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+.a1{
+	font-size: 18px;
+	font-family: '微软雅黑';
+	color: #000;
+	border-bottom: 2px solid rgb(254,0,0);
+	
+	
+}
+.b{
+	float: right;
+	color: rgb(155, 155, 155);
+
+}
+img{
+	margin-bottom: -3px;
+}
+.dd{
+	color: rgb(143, 143, 143);
+	font-size: 5px;
+
+}
+.dd .gg{
+	line-height: 37px;
+	margin-left: 2px;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	color: rgb(23, 23, 23);
+}
+.xx{
+	list-style: none;
+	float: right;
+	margin-top: 2px;
+	margin-right: 20px;
+}
+.tt{
+	line-height: 36px;
+	color: rgb(98, 98, 98);
+}
+ul a:hover{
+	color: pink;
+}
+.gg:hover{
+	color: pink;
+}

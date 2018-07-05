@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>循环语句</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oList = document.getElementById('list01');
+			var aLi = oList.getElementsByTagName('li');
+			/*for (var i = 0; i < aLi.length; i++) {
+				if(i % 2 == 0){
+					aLi[i].style.background = 'gold';
+				}
+			}*/
+			/*for(var j in aLi){
+				aLi[j].style.background = 'red';
+			}*/
+			var j = 0;
+			while(j < aLi.length){
+				aLi[j].style.background = 'gold';
+				j++;
+			}
+			/*
+			死循环
+			可以使用break，来终止循环
+			*/
+			/*while(true){
+				if(j>10){
+					break;
+				}
+				j++;
+			}
+			//for循环的死循环写法
+			for(;;){
+			}*/
+			outer:
+			for(var i=0 ; i<5 ; i++){
+				console.log("@外层循环"+i);
+				for(var j=0 ; j<5; j++){
+					console.log("内层循环:"+j);
+					break outer;
+				}
+			}
+		} 
+	</script>
+</head>
+<body>
+	<ul id="list01">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+	</ul>
+</body>
+</html>

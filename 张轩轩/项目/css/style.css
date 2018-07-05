@@ -1,0 +1,216 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	color: black;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.con{
+
+	height: 88px;
+	border-bottom: 1px solid rgb(240,240,240);
+	box-shadow:0px 2px 1px 0px rgb(240,240,240);
+}
+.box1{
+	height: 43px;
+	border-bottom: 1px solid rgb(240,240,240);
+
+}
+.top{
+	margin: 0px auto;
+	width: 1110px;
+	height: 43px;
+}
+.w{
+	width: 56px;
+	line-height: 43px;
+	text-align: center;
+	display: block;
+	color: rgb(93,0,0);
+	font-size: 14px;
+	height: 42px;
+}
+.gwc{
+	margin-right: 9px;
+	width: 72px;
+}
+.lan:hover{
+	color: rgb(84,214,214);
+}
+.w1{
+	width: 30px;
+	margin-top: 2px;
+}
+.top2{
+	display: block;
+	text-align: center;
+	line-height: 43px;
+	border-left: 1px solid rgb(240,240,240);
+	border-right: 1px solid rgb(240,240,240);
+	width: 66px;
+	color: rgb(93,0,0);
+	font-size: 14px;
+}
+.w2{
+	display: block;
+	width: 37px;
+	height: 44px;
+	background: url(../imgs/主页.png) center no-repeat;
+}
+.w2:hover{
+	background-color: rgb(246,246,246);
+}
+input{
+	width: 190px;
+	height: 43px;
+	padding-left: 10px;
+}
+.ss{
+	width: 48px;
+	height: 43px;
+	background-color: white;
+	margin-right: 7px;
+	border-right: 1px solid rgb(240,240,240);
+}
+.logo{
+	display: block;
+	width: 321px;
+	height: 88px;
+	background: url(../imgs/wasai.png) center no-repeat;
+	margin: -88px auto 0px;
+}
+.hua{
+	height: 10px;
+	background: url(../imgs/花边.gif) repeat-x;
+}
+.box2{
+	height: 363px;
+	margin-top: -1px;
+	background-color: rgb(246,246,246);
+	position: relative;
+	
+}
+.box3{
+	height: 370px;
+	background-color: rgb(7,199,211);
+	margin-bottom: 21px;
+}
+.big{
+	color: rgb(29,206,225);
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.ll{
+	position: absolute;
+	left: 284px;
+	top: 95px;
+}
+.small{
+	font-size: 14px;
+	color: rgb(74,74,74);
+}
+.small:hover{
+	background-color: rgb(0,204,204);
+	color: white;
+}
+.ll2{
+	position: absolute;
+	left: 535px;
+	top: 95px;
+}
+.small2{
+	line-height: 22px;
+	color: rgb(92,92,92);
+	font-size: 14px;
+}
+.box4{
+	width: 118px;
+	height: 162px;
+	background: url(../imgs/edCode.png) no-repeat;
+	position: absolute;
+	top:111px;
+	left: 1092px;
+}
+.ewm{
+	display: block;
+	height: 20px;
+	margin-top: 142px;
+}
+.gz{
+	display: block;
+	margin: 11px 0px;
+}
+.gzg{
+	margin-top: 12px;
+}
+.gz1,.gz2,.gz3,.gz4,.gz5{
+	height: 28px;
+	width: 28px;
+	margin-right: 10px;
+	background: url(../imgs/关注.jpg) no-repeat;
+}
+.gz1{
+	background-position: 0px 0px;
+}
+.gz2{
+	background-position: 0px -39px;
+}
+.gz3{
+	background-position: 0px -78px;
+}
+.gz4{
+	background-position: 0px -117px;
+}
+.gz5{
+	background-position: 0px -157px;
+}
+.ll3{
+	position: absolute;
+	top:95px;
+	left: 783px;
+}
+.pp{
+	font-size: 14px;
+	color: black;
+	line-height: 28px;
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+	zoom:1;
+}
+.gddz{
+	text-align: center;
+	font-size: 27px;
+	color: white;
+	line-height: 140px;
+}
+.box5{
+	width: 720px;
+	margin: 0px auto;
+}
+.foot{
+	display: block;
+	margin-right: 13px;
+	font-size: 12px;
+	color: white;
+}
+.banq{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 57px;
+}
+
+
+
+
+ss

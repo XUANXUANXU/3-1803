@@ -1,0 +1,178 @@
+
+/*.box6{
+	height: 525px;
+	background-color: pink;
+}*/
+.dr{
+	font-size: 30px;
+	color: rgb(153, 153, 153);
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 31px;
+}
+.box7{
+	background-color: rgb(246, 246, 246);
+}
+.deng{
+	display: block;
+	width: 242px;
+	height: 314px;
+	background: url(../imgs/deng.jpg);
+}
+.jing{
+	width: 1100px;
+	margin: 0px auto 22px;
+}
+.you{
+	margin-right: 44px;
+}
+.fff{
+	display: block;
+	background-color: white;
+	width: 200px;
+	height: 52px;
+	line-height: 52px;
+	margin: 280px auto 0px;
+	text-align: center;
+	color: rgb(84, 214, 214);
+	box-shadow:5px 5px 0px 0px rgba(221, 221, 221,0.5);
+}
+.you1:hover .fff{
+	box-shadow:5px 5px 0px 0px rgb(255, 161, 40);
+}
+.you1:hover .fff1{
+	box-shadow:5px 5px 0px 0px rgb(255, 161, 40);
+}
+.you1:hover .fff2{
+	box-shadow:5px 5px 0px 0px rgb(255, 161, 40);
+}
+.deng2{
+	display: block;
+	width: 242px;
+	height: 314px;
+	background: url(../imgs/deng.jpg);
+}
+.bao{
+	display: block;
+	width: 528px;
+	height: 314px;
+	background: url(../imgs/包.jpg);
+}
+.you2{
+	margin-right: 44px;
+}
+.fff1{
+	display: block;
+	background-color: white;
+	width: 479px;
+	height: 52px;
+	line-height: 52px;
+	margin: 280px auto 0px;
+	text-align: center;
+	color: rgb(84, 214, 214);
+	box-shadow:5px 5px 0px 0px rgba(221, 221, 221,0.5);
+}
+.shangou{
+	font-size: 30px;
+	color: rgb(153, 153, 153);
+	text-align: center;
+	margin-top: 115px;
+}
+.ssgg{
+	display: block;
+	width: 83px;
+	height: 23px;
+	margin:0px auto;
+	background-image: url(../imgs/more.png);
+	margin-top: 4px;
+}
+.deng3{
+	display: block;
+	width: 337px;
+	height: 201px;
+	background: url(../imgs/加入变革.jpg);
+}
+.you3{
+	margin-right: 43px;
+}
+.fff2{
+	display: block;
+	background-color: white;
+	width: 263px;
+	height: 52px;
+	line-height: 52px;
+	margin: 167px auto 0px;
+	text-align: center;
+	color: rgb(84, 214, 214);
+	box-shadow:5px 5px 0px 0px rgba(221, 221, 221,0.5);
+}
+.biange{
+	display: block;
+	width: 337px;
+	height: 201px;
+	background-image: url(../imgs/加入变革.jpg);
+}
+.btm{
+	padding-bottom: 70px;
+}
+.sheji{
+	width: 1100px;
+	padding-bottom: 100px;
+	margin: 0px auto;
+}
+.pinpai{
+	width: 160px;
+	height: 68px;
+	display: block;
+	float: left;
+	margin: 20px 0px 0px 17px;
+}
+.ssjj{
+	margin-bottom: -10px;
+	font-size: 30px;
+	color: rgb(153, 153, 153);
+	text-align: center;
+	margin-top: 40px;
+}
+.erweima{
+	display: block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../imgs/erweima.jpg);
+	background-position: 0 -72px;
+	position: fixed;
+	bottom: 160px;
+	right: 75px;
+	z-index: 999;
+	display: none;
+}
+.erweima:hover{
+	background-position: 0 0;
+}
+.erweima:hover .eewwmm{
+	display: block;
+}
+.backtop{
+	display: block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../imgs/totop1.gif);
+	position: fixed;
+	bottom: 95px;
+	right: 75px;
+	z-index: 999;
+	display: none;
+}
+.backtop:hover{
+	background-image: url(../imgs/totopd1.gif);
+}
+.eewwmm{
+	display: none;
+	background-image: url(../imgs/erweima.png);
+	width: 301px;
+	height: 189px;
+	position: fixed;
+	bottom: 160px;
+	right: 137px;
+	z-index: 999;
+}

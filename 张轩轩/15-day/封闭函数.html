@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>封闭函数</title>
+	<script type="text/javascript">
+		// function change(){
+		// 	var a = "哈哈哈哈";
+  //  			alert(a);
+		// 	}
+		// change();
+		// 1
+		;;(function(){
+    		var a = "哈哈哈哈";
+   			alert(a);
+		})();
+		// 2  !或~
+		!function(){
+    		var a = "哈哈哈哈";
+   			alert(a);
+		}();
+		~function(){
+    		var a = "哈哈哈哈";
+   			alert(a);
+		}();
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

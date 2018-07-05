@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字体的其他样式</title>
+	<style type="text/css">
+		.p1{
+			color: blue;
+			font-size: 30px;
+			font-family: 微软雅黑;
+			/*
+			斜体 倾斜 
+			 font-style: italic; 
+			*/
+			font-style: oblique;
+			/*
+			加粗
+			font-weight: bold;
+			*/
+			font-weight: 500;
+			/*小型大写字母字体*/
+			font-variant: small-caps;
+		}
+		.p2{
+			font-size: 50px;
+			font-family: 华文彩云;
+			font-style: italic;
+			font-weight: bold;
+			font-variant: small-caps;
+		}
+		/*大小和字体 必须写且必须写到后两个*/
+		.p3{
+			font: italic small-caps bold 60px '微软雅黑';
+		}
+	</style>
+</head>
+<body>
+	<p class="p1">文字文字文字文字文字文字andASDFasdf</p>
+	<p class="p2">文字文字文字文字文字文字andASDFasdf</p>
+	<p class="p3">文字文字文字文字文字文字andASDFasdf</p>
+</body>
+</html>

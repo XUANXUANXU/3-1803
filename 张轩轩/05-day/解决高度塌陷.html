@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高度塌陷</title>
+	<style type="text/css">
+	/*BFC 
+	1、父元素的垂直外边距不会和子元素重叠
+	2、开启BFC的元素不会被浮动的元素覆盖
+	3、开启BFC的元素可以包含浮动的元素
+	如何开启：1、设置元素浮动  2、设置元素绝对定位 3、设置元素为inline-block 4、将overflow设置为非visible的值
+	IE6及以下不支持BFC  IE只有haslayout
+	*/
+		.box1{
+			border: 10px red solid;
+			/*height: 100px;*/
+			/*display: inline-block;*/
+			overflow: auto;
+			zoom:1;
+		}
+		.box2{
+			width: 100px;
+			height: 100px;
+			background-color: yellow;
+			float: left;
+		}
+		.box3{
+			height: 100px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box1">
+		<div class="box2"></div>
+	</div>
+	<div class="box3"></div>
+</html>

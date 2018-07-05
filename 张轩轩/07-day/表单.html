@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<form action="模拟后台服务器.html" method="post">
+		<fieldset>
+			<legend>用户信息</legend>
+			<label for="um">用户名</label>
+			<input type="text" id="um" name="username"><br><br>
+			<label for="pwd">密码</label>
+			<input type="password" id="pwd" name="psd"><br><br>
+		</fieldset>
+		<fieldset>
+			<legend>用户爱好</legend>
+			性别<input type="radio" id="nan" name="gender" value="male">
+			<label for="nan">男</label>
+			<input type="radio" name="gender" value="female" checked="checked">女<br><br>
+
+			爱好<input type="checkbox" name="hobby" value="man" checked="checked">男人
+			<input type="checkbox" name="hobby" value="shuaige">帅哥
+			<input type="checkbox" name="hobby" value="nan">暖男<br><br>
+		</fieldset>
+		喜欢的部位
+		<select name="buwei">
+			<optgroup label="外表">
+				<option value="naizi">奶子</option>
+				<option value="pigu">屁股</option>
+				<option value="dachangtui" selected="selected">大长腿</option>
+			</optgroup>
+			<optgroup label="内脏">
+				<option value="shen">肾</option>
+				<option value="fei">肺</option>
+				<option value="wei" selected="selected">胃</option>
+			</optgroup>
+		</select>
+		<br><br>
+		自我介绍<textarea name="info" id="" cols="30" rows="10"></textarea><br><br>
+		<input type="submit" value="搜索">
+		<input type="reset">
+		<input type="button" value="按钮"><br><br>
+		<button type="submit">提交</button>
+		<button type="reset">重置</button>
+		<button type="button">按钮</button>
+	</form>
+</body>
+</html>

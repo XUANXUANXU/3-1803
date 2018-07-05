@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>与或运算</title>
+	<script type="text/javascript">
+
+		/*两个都为true，则返回第二个值*/
+		var result = 1&&2;//2
+		console.log(result);
+
+		result = 0&&2;//0
+		console.log(result);
+
+		result = NaN&&0;//NaN
+		console.log(result);
+
+		result = 0&&NaN//0
+		console.log(result);
+
+		/*如果两个都为false ，则返回第二个值，否 则返回靠前true的值*/
+		var result = 1||2;//1
+		console.log(result);
+
+		result = 0||2;//2
+		console.log(result);
+
+		result = NaN||0;//0
+		console.log(result);
+
+		result = 0||NaN//NaN
+		console.log(result);
+
+		result = ""||"NaN"//NaN
+		console.log(result);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

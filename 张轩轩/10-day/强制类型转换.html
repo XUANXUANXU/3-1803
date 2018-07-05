@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>强制类型转换</title>
+	<script type="text/javascript">
+		/*
+		string number boolean
+		*/
+		var a = 123;
+		//toString
+		a = a.toString();
+
+		a = true;
+		a = a.toString();
+
+		// a = undefined;
+		// a = a.toString();
+		//方式二Sting（）函数
+		a=123;
+		a = String(a);
+
+		a = null;
+		a = String(a);
+
+		a = undefined;
+		a = String(a);
+
+		console.log(a);
+		console.log(typeof a);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
